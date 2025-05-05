@@ -1,5 +1,7 @@
 # Tribuna Latina 🏆⚽🏀
 
+Figma do App: https://www.figma.com/design/Co7QTigYIuTFyADqb3x5aq/Tribuna-Latina?node-id=12-454&p=f&t=HfQIm6p2SW5wSWAA-0
+
 ## Sobre o Projeto
 
 Tribuna Latina é uma plataforma desenvolvida para o hackathon da rede Chiliz que permite criar e gerenciar NFTs (Non-Fungible Tokens) de jogadores, conectando-os com seus fãs através dos fan tokens da rede Chiliz.
@@ -72,6 +74,7 @@ tribuna-latina/
 - [x] MVP funcional para submissão ao grant
 
 ### Fase 2 - Aprimoramento (Em Desenvolvimento 🚀)
+- [ ] Integração completa dos smart contracts com a plataforma
 - [ ] Testes de integração e auditoria de segurança
 - [ ] Lançamento beta com parceiros selecionados
 - [ ] Implementação de feedback dos usuários
@@ -104,7 +107,8 @@ Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para de
 
 - GitHub: [@pedro-pelicioni](https://github.com/pedro-pelicioni)
 - Twitter: [@pedropelicioni](https://x.com/pelicioni_xlm)
-- Discord: [Tribuna Latina](https://discord.gg/tribunalatina)
+- GitHub: [@JennyT3](https://github.com/JennyT3)
+- Twitter: [@jennyt_eth](https://x.com/jennyt_eth)
 
 ---
 
