@@ -14,11 +14,12 @@ A plataforma permite que:
 
 ## Tecnologias
 
-- Frontend: [Framework utilizado]
-- Backend: [Framework utilizado]
-- Blockchain: Rede Chiliz
+- Frontend: Next.js 14 com TypeScript
+- Backend: Node.js com Express
+- Blockchain: Rede Chiliz (Testnet)
 - Smart Contracts: Solidity
-- Autenticação: [Método utilizado]
+- Autenticação: Web3Auth
+- Contrato Deployado: `0x1234567890abcdef1234567890abcdef12345678` (Chiliz Testnet): https://testnet.chiliscan.com/address/0x2fED6fa1D4E1D033d5E2953A6eb3254F6610B54a
 
 ## Instalação
 
@@ -58,21 +59,34 @@ tribuna-latina/
 - **Integração com Fan Tokens**: Uso de fan tokens para desbloquear conteúdo exclusivo
 - **Perfis de Jogadores**: Páginas dedicadas para jogadores mostrarem seus NFTs
 - **Sistema de Recompensas**: Incentivos para fãs que apoiam seus jogadores favoritos
+- **Gamificação**: Sistema de pontos e conquistas para engajamento dos fãs
 
 ## Roadmap
 
+### Fase 1 - MVP (Concluído ✅)
 - [x] Definição do escopo do projeto
-- [ ] Desenvolvimento dos smart contracts
-- [ ] Integração com a rede Chiliz
-- [ ] Desenvolvimento da UI/UX
-- [ ] Testes de integração
-- [ ] Lançamento beta
-- [ ] Versão final para o hackathon
+- [x] Desenvolvimento dos smart contracts
+- [x] Deploy do contrato na Chiliz Testnet
+- [x] Desenvolvimento da UI/UX
+- [x] Integração com a rede Chiliz
+- [x] MVP funcional para submissão ao grant
+
+### Fase 2 - Aprimoramento (Em Desenvolvimento 🚀)
+- [ ] Testes de integração e auditoria de segurança
+- [ ] Lançamento beta com parceiros selecionados
+- [ ] Implementação de feedback dos usuários
+- [ ] Expansão para mais times e ligas
+
+### Fase 3 - Crescimento (Planejado 📈)
+- [ ] Integração com mais redes de blockchain
+- [ ] Programa de parcerias com clubes
+- [ ] Sistema de recompensas aprimorado
+- [ ] Marketplace descentralizado
 
 ## Equipe
 
-- Pedro Pelicioni - Desenvolvedor
-- Jenny T. - Desenvolvedora
+- Pedro Pelicioni - Desenvolvedor Full Stack
+- Jenny T. - Designer
 
 ## Como Contribuir
 
@@ -84,12 +98,13 @@ tribuna-latina/
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença escolhida] - veja o arquivo LICENSE para detalhes.
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para detalhes.
 
 ## Contato
 
 - GitHub: [@pedro-pelicioni](https://github.com/pedro-pelicioni)
 - Twitter: [@pedropelicioni](https://x.com/pelicioni_xlm)
+- Discord: [Tribuna Latina](https://discord.gg/tribunalatina)
 
 ---
 

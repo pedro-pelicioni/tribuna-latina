@@ -1,0 +1,12 @@
+{
+  "name": "tribuna-latina-back",
+  "version": "1.0.0",
+  "description": "Backend do projeto Tribuna Latina",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+} 
