@@ -88,7 +88,12 @@ export default function ConnectWalletPage() {
                     ? "scale-[1.02] from-[#ff5f38] via-[#38d8d8] to-[#5dff94] shadow-[0_0_20px_rgba(93,255,148,0.4)]"
                     : "hover:scale-[1.01] hover:from-[#ff5f38] hover:via-[#38d8d8] hover:to-[#5dff94]"
                 }`}
-                onClick={() => handleWalletSelect("metamask")}
+                onClick={() => {
+                  handleWalletSelect("metamask")
+                  setTimeout(() => {
+                    router.push("/dashboard")
+                  }, 1500)
+                }}
                 disabled={isLoading}
               >
                 <div className="w-full h-full rounded-xl bg-black/80 backdrop-blur-sm flex items-center px-6">
@@ -111,7 +116,12 @@ export default function ConnectWalletPage() {
                     ? "scale-[1.02] from-[#ff5f38] via-[#38d8d8] to-[#5dff94] shadow-[0_0_20px_rgba(93,255,148,0.4)]"
                     : "hover:scale-[1.01] hover:from-[#ff5f38] hover:via-[#38d8d8] hover:to-[#5dff94]"
                 }`}
-                onClick={() => handleWalletSelect("coinbase")}
+                onClick={() => {
+                  handleWalletSelect("coinbase")
+                  setTimeout(() => {
+                    router.push("/dashboard")
+                  }, 1500)
+                }}
                 disabled={isLoading}
               >
                 <div className="w-full h-full rounded-xl bg-black/80 backdrop-blur-sm flex items-center px-6">
@@ -134,7 +144,12 @@ export default function ConnectWalletPage() {
                     ? "scale-[1.02] from-[#ff5f38] via-[#38d8d8] to-[#5dff94] shadow-[0_0_20px_rgba(93,255,148,0.4)]"
                     : "hover:scale-[1.01] hover:from-[#ff5f38] hover:via-[#38d8d8] hover:to-[#5dff94]"
                 }`}
-                onClick={() => handleWalletSelect("walletconnect")}
+                onClick={() => {
+                  handleWalletSelect("walletconnect")
+                  setTimeout(() => {
+                    router.push("/dashboard")
+                  }, 1500)
+                }}
                 disabled={isLoading}
               >
                 <div className="w-full h-full rounded-xl bg-black/80 backdrop-blur-sm flex items-center px-6">
